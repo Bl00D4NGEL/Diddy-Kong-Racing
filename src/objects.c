@@ -7180,6 +7180,7 @@ Object *get_racer_object(s32 index) {
 
 /**
  * Returns the racer object specified by the player ID.
+ * Official name: objGetPlayerNo
  */
 Object *get_racer_object_by_port(s32 index) {
     if (gNumRacers == 0) {
