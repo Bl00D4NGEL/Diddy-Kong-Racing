@@ -1923,7 +1923,7 @@ void add_particle_to_entity_list(Object *obj) {
     gParticleCount++;
 }
 
-// Official Name: ObjSetupObject
+// Official Name: objSetupObject
 Object *spawn_object(LevelObjectEntryCommon *entry, s32 spawnFlags) {
     s32 objType;
     Settings *settings;
